@@ -4,26 +4,22 @@ import fs from 'fs';
 // Zamieniamy fs.readFile na wersję opartą o Promises
 const readFileAsync = promisify(fs.readFile);
 
-export const promt = "Podaje Ci text do zredagowania, proszę zmień go. Tekst znajduje się po dwu kropku:";
-
+// Funkcja do odczytu dwóch plików
 export const FinalCommand = async () => {
   try {
-    // Odczytujemy plik w sposób asynchroniczny
+    // Odczytujemy plik promt.txt z tekstem wstępnym
+    const promtContent = await readFileAsync("prompt.txt", 'utf8');
+    
+    // Odczytujemy plik article.txt z treścią artykułu
     const fileContent = await readFileAsync("article.txt", 'utf8');
     
-    // Łączymy tekst z zawartością pliku
-    const command = promt + " " + fileContent;
+    // Łączymy obie zawartości
+    const command = promtContent + " " + fileContent;
     
     // Zwracamy utworzony FinalCommand
     return command;
   } catch (err) {
-    console.error("Błąd przy odczycie pliku", err);
+    console.error("Błąd przy odczycie plików", err);
     return "";
   }
 };
-
-// Użycie FinalCommand
-FinalCommand().then((finalCommand) => {
-  console.log(finalCommand);  // Wypisuje FinalCommand po zakończeniu odczytu pliku
-});
-export var finalCommand;

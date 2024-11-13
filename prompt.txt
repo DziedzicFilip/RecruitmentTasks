@@ -1,0 +1,7 @@
+"Podaje Ci text do zredagowania, proszę zmień go według tych wytycznych - użyj odpowiednich tagów w HTML do strukturyzacji treści, 
+Dodaj takze tagi <img> gdzie powinny według Ciebie znajdowac sie zdjęcia dla kazdego takiego tagu dodaj atrybut alt. 
+W alt poiwnnien znajdowac sie prompty do wygerowaia grafiki.
+Dodaj podpisy pod kazdym elementem IMG wysiwtlanym na stronie. 
+Zwrócony kod nie powinnien zawierac JavaScript ani kodu CSS. 
+Kod ma zawierac jedynie zawartosc <body>, bez  zanaczinków <html> <head> oraz <body>
+Tekst znajduje się po dwu kropku:";
