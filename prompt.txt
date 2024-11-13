@@ -3,5 +3,5 @@ Dodaj takze tagi <img> gdzie powinny według Ciebie znajdowac sie zdjęcia dla k
 W alt poiwnnien znajdowac sie prompty do wygerowaia grafiki.
 Dodaj podpisy pod kazdym elementem IMG wysiwtlanym na stronie. 
 Zwrócony kod nie powinnien zawierac JavaScript ani kodu CSS. 
-Kod ma zawierac jedynie zawartosc <body>, bez  zanaczinków <html> <head> oraz <body>
+Kod ma zawierac jedynie zawartosc <body>, bez  zanaczinków <html> <head> oraz <body> oraz nie dopisuj żadncyh oznaczeń ```  i tym podobne sam kod na strone 
 Tekst znajduje się po dwu kropku:";
