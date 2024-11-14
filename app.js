@@ -14,7 +14,7 @@ const getFinalCommand = async () => {
 		const finalCommand = await FinalCommand();
 
 		if (!finalCommand) {
-			throw new Error('finalCommand is empty or undefined.');
+			throw new Error('finalCommand jest puste lub niezdefiniowane');
 		}
 
 		console.log('Ładowanie... OpenAI myśli...');
