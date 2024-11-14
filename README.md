@@ -47,9 +47,7 @@ Aplikacja umożliwia automatyczne formatowanie artykułów w HTML przy użyciu A
 4. **AutmoatycznySzablon.html**
    - Szablon, który automatycznie wyświetla treść z `artykul.html` (jeśli plik ten znajduje się w strukturze plików projektu).
    - Używa funkcji `fetch` do pobrania zawartości `artykul.html` i wyświetlenia jej w sekcji `<body>`.
-   - Aby poprawnie uruchomić ten plik, zalecane jest włączenie go przez lokalny serwer (np. VS Code Live Server lub inny lokalny serwer HTTP).
-
-**Uwaga:** Ze względu na ograniczenia przeglądarki (polityka CORS), `AutmoatycznySzablon.html` wymaga uruchomienia na serwerze lokalnym, aby skrypt JavaScript mógł bezpiecznie pobrać dane z pliku `artykul.html`.
+     **Uwaga:** Ze względu na ograniczenia przeglądarki (polityka CORS), `AutmoatycznySzablon.html` wymaga uruchomienia na serwerze lokalnym, aby skrypt JavaScript mógł bezpiecznie pobrać dane z pliku `artykul.html`.
 
 ### Konfiguracja pliku `.env`
 
